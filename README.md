@@ -5,3 +5,6 @@ This folder holds a (currently incomplete) linear regression model that focuses 
 
 ### Sports Analytics
 This folder holds a college group project that focused on athletes and contained multiple predefined tasks which were split by me and my teammates. These include things such as basic preprocessing of the data, finding means and other metrics, and generating plots.
+
+### Text Mining
+This folder holds files from an 8 week college class on text mining in fall 2022. One folder holds the weekly exercises for the first 7 weeks, one holds the files for the final project in week 8 (which includes a PowerPoint presentation and script that were presented to the class), and the last holds the datasets that were used by the previous two.
