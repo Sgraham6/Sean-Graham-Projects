@@ -1,0 +1,5 @@
+CourseName,CourseNumber,Days,BeginDate,EndDate,Credits, Tuition 
+DSCI,200,,8/26/2019,10/29/2019,3,"$3,000 "
+DSCI,307,TT,8/26/2019,12/12/2019,3,"$3,000 "
+MATH,371,MW,8/26/2019,12/11/2019,,"$3,000 "
+MATH,372,MW,8/26/2019,,3,"$3,000 "
