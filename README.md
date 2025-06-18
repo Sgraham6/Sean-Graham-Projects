@@ -14,3 +14,6 @@ This folder holds files from an 8 week college class on deep learning in spring 
 
 ### SAS
 This folder holds files from an 8 week college class on SAS in spring 2022. One folder holds the projects completed over the first 7 weeks as well as the final project, and the other holds the datasets that were used.
+
+### Big Data
+This folder holds files from an 8 week college class on Big Data in fall 2021. One folder holds the homework assignments completed over each week, and the other holds the three projects assigned in the course.
