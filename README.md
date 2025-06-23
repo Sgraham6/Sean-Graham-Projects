@@ -1,4 +1,4 @@
-This repository holds code for various projects that I've worked on both in school and on my own time. It should be noted that some files, such as html files, must be downloaded to be viewed properly.
+This repository holds code for various projects that I've worked on both in school and on my own time. It should be noted that some files must be downloaded to be viewed properly.
 
 ### Laptop Regression
 This folder holds a (currently incomplete) linear regression model that focuses on price data (obtained from Kaggle) for various laptops. The price is the independent variable, and the dependent variables incldue features such as size and storage. The model is primarily designed for interpretive purposes and is carried out over multiple Jupyter documents. The first preprocesses the data and saves it, and the subsequent files perform the regression and make sure the approprate assumtions are met.
@@ -16,4 +16,4 @@ This folder holds files from an 8 week college class on deep learning in spring 
 This folder holds files from an 8 week college class on SAS in spring 2022. One folder holds the projects completed over the first 7 weeks as well as the final project, and the other holds the datasets that were used.
 
 ### Big Data
-This folder holds files from an 8 week college class on Big Data in fall 2021. One folder holds the homework assignments completed over each week, and the other holds the three projects assigned in the course.
+This folder holds files from an 8 week college class on Big Data in fall 2021. One folder holds the homework assignments completed over each week, and the other holds the three projects assigned in the course. It should be noted that in the class, it was only required to provide explanatory text for each problem in the project files. The problems in the homework files aren't explained as thoroughly.
