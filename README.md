@@ -17,3 +17,6 @@ This folder holds files from an 8 week college class on SAS in spring 2022. One 
 
 ### Big Data
 This folder holds files from an 8 week college class on Big Data in fall 2021. One folder holds the homework assignments completed over each week, and the other holds the three projects assigned in the course. It should be noted that in the class, it was only required to provide explanatory text for each problem in the project files. The problems in the homework files aren't explained as thoroughly.
+
+### SQL
+This folder holds files from an 8 week college class on SQL in fall 2020. One folder holds the 3 exams that were completed over the course and the directions for the first two (the third is missing). The other folder holds a group project that was completed with classmates as well as the directions.
