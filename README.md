@@ -1,4 +1,4 @@
-This repository holds code for various projects that I've worked on both in school and on my own time. It should be noted that some files must be downloaded to be viewed properly.
+This repository holds code for various projects that I've worked on both in school and on my own time. It should be noted that some files must be downloaded to be viewed properly. Also, the names and personal information shown are generated data. No actual people and data are referenced in this repository.
 
 ### Laptop Regression
 This folder holds a (currently incomplete) linear regression model that focuses on price data (obtained from Kaggle) for various laptops. The price is the independent variable, and the dependent variables incldue features such as size and storage. The model is primarily designed for interpretive purposes and is carried out over multiple Jupyter documents. The first preprocesses the data and saves it, and the subsequent files perform the regression and make sure the approprate assumtions are met.
@@ -7,10 +7,10 @@ This folder holds a (currently incomplete) linear regression model that focuses 
 This folder holds a college group project that focused on athletes and contained multiple predefined tasks which were split by me and my teammates. These include things such as basic preprocessing of the data, finding means and other metrics, and generating plots.
 
 ### Text Mining
-This folder holds files from an 8 week college class on text mining in fall 2022. One folder holds the weekly exercises for the first 7 weeks, one holds the files for the final project in week 8 (which includes a PowerPoint presentation and script that were presented to the class), and the last holds the datasets that were used by the previous two.
+This folder holds files from a college class on text mining in fall 2022. One folder holds the weekly exercises for the first 7 weeks, one holds the files for the final project in week 8 (which includes a PowerPoint presentation and script that were presented to the class), and the last holds the datasets that were used by the previous two.
 
 ### Deep Learning
-This folder holds files from an 8 week college class on deep learning in spring 2022. One folder holds six projects completed over the first 7 weeks, one holds the files for the final project (which includes a PowerPoint presentation and script that were presented to the class), and the last holds the datasets that were used by the previous two. It should be noted the that "Final Project Part 1" file had to have its outputs cleared, as it would be too large to display otherwise.
+This folder holds files from a college class on deep learning in spring 2022. One folder holds six projects completed over the first 7 weeks, one holds the files for the final project (which includes a PowerPoint presentation and script that were presented to the class), and the last holds the datasets that were used by the previous two. It should be noted the that "Final Project Part 1" file had to have its outputs cleared, as it would be too large to display otherwise.
 
 ### SAS
 This folder holds files from an 8 week college class on SAS in spring 2022. One folder holds the projects completed over the first 7 weeks as well as the final project, and the other holds the datasets that were used.
@@ -19,4 +19,7 @@ This folder holds files from an 8 week college class on SAS in spring 2022. One 
 This folder holds files from an 8 week college class on Big Data in fall 2021. One folder holds the homework assignments completed over each week, and the other holds the three projects assigned in the course. It should be noted that in the class, it was only required to provide explanatory text for each problem in the project files. The problems in the homework files aren't explained as thoroughly.
 
 ### SQL
-This folder holds files from an 8 week college class on SQL in fall 2020. One folder holds the 3 exams that were completed over the course and the directions for the first two (the third is missing). The other folder holds a group project that was completed with classmates as well as the directions.
+This folder holds files from a college class on SQL in fall 2020. One folder holds the 3 exams that were completed over the course and the directions for the first two (the third is missing). The other folder holds a group project that was completed with classmates as well as the directions.
+
+### Excel
+This folder holds files from an 8 week college class on Excel in fall 2020. The folders for each week contain the Excel assignments; some are accompanied by Word documents explaining the tasks, and Week 6 contains two .txt files and a .csv file used in that week's work. The class folder also holds an Excel file that contains all the data tables used for the course.
