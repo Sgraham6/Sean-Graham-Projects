@@ -23,3 +23,6 @@ This folder holds files from a college class on SQL in fall 2020. One folder hol
 
 ### Excel
 This folder holds files from an 8 week college class on Excel in fall 2020. The folders for each week contain the Excel assignments; some are accompanied by Word documents explaining the tasks, and Week 6 contains two .txt files and a .csv file used in that week's work. The class folder also holds an Excel file that contains all the data tables used for the course.
+
+### R
+This folder holds files from an 8 week college class on R in spring 2020. The folders for each week and the final project contain the R code (all of these code files with the exception of week 1 contain the questions that were being answered as comments), the data that was used (with the exception of the third week and the final project, for which the data was missing), and PDFs (which contain screenshots of the code and outputs as well as textual answers to the questions where applicable).
