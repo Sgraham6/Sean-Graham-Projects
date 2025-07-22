@@ -1,8 +1,7 @@
 This repository holds code for various projects that I've worked on both in school and on my own time. It should be noted that some files must be downloaded to be viewed properly. Also, the names and personal information shown are generated data. No actual people and data are referenced in this repository.
 
 ### Laptop Regression
-This folder holds a linear regression model that focuses on price data (obtained from Kaggle) for various laptops. The price is the independent variable, and the dependent variables incldue features such as size and storage. The model is primarily designed for understanding the relationship between the price and the predictors, and it's carried out over multiple Jupyter documents. The data is preprocessed, the regression is performed, and steps are taken to assure that the assumptions of linear regression are met. 
-Note: This project has yet to be proofread; I plan to do this soon.
+This folder holds a linear regression model that focuses on price data (obtained from Kaggle) for various laptops. The price is the independent variable, and the dependent variables incldue features such as size and storage. The model is primarily designed for understanding the relationship between the price and the predictors, and it's carried out over multiple Colab documents. The data is preprocessed, the regression is performed, and steps are taken to assure that the assumptions of linear regression are met. 
 
 ### Sports Analytics
 This folder holds a college group project that focused on athletes and contained multiple predefined tasks which were split by me and my teammates. These include things such as basic preprocessing of the data, finding means and other metrics, and generating plots.
