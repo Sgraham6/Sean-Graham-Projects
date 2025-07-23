@@ -27,5 +27,8 @@ This folder holds files from an 8 week college class on Excel in fall 2020. The 
 ### R
 This folder holds files from an 8 week college class on R in spring 2020. The folders for each week and the final project contain the R code (all of these code files with the exception of week 1 contain the questions that were being answered as comments), the data that was used (with the exception of the third week and the final project, for which the data was missing), and PDFs (which contain screenshots of the code and outputs as well as textual answers to the questions where applicable).
 
-### Python
+### Python 2
+This folder holds files from an 8 week college class on Python in summer 2020. One folder holds the homework assignments that were completed, one holds the projects, and the last holds the data that was used. Some homework assignments and projects contain their directions within the files, while others have their directions contained in separate PDF files.
+
+### Python 1
 This folder holds files from a college class on Python in spring 2020. One folder holds the 10 projects that were completed, one holds the content for the midterm and final exams, and the last contains the datasets that were used.
