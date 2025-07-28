@@ -51,10 +51,10 @@ print(grade)
 grade_hist = grade['grade'].value_counts().plot.bar()
 print(grade_hist)
 import matplotlib.pyplot as plt 
-plt.savefig('/Users/GrahamMacbookPro/Desktop/Week 7/Project5_Sean Graham_grade.png')
+plt.savefig('Project5_Sean Graham_grade.png')
 
 #6
-grade.to_csv('/Users/GrahamMacbookPro/Desktop/Week 7/Project5_Sean Graham_grade.csv') 
+grade.to_csv('Project5_Sean Graham_grade.csv') 
 #%%
 '''
 Problem 2. Loops
