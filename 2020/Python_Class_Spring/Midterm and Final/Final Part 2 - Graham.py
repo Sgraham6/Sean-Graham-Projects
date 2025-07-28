@@ -37,7 +37,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-wine = pd.read_csv('/Users/GrahamMacbookPro/Desktop/Second Half/Final Part 2/red wine quality.csv')
+wine = pd.read_csv('red wine quality.csv')
 #print(wine)
 
 #2
@@ -51,13 +51,13 @@ wine = wine.dropna()
 #4
 wine.hist(bins=30)
 #plt.show()
-plt.savefig('/Users/GrahamMacbookPro/Desktop/Second Half/Final Part 2/histogram.png')
+plt.savefig('histogram.png')
 
 #5
 wine.plot.scatter(x='volatile_acidity', y='alcohol', c='quality', cmap=plt.get_cmap("jet"), \
                   colorbar=True, sharex=False)
 #plt.show()
-plt.savefig('/Users/GrahamMacbookPro/Desktop/Second Half/Final Part 2/scatter plot.png')
+plt.savefig('scatter plot.png')
 
 #6
 def quality_level(quality):
@@ -92,12 +92,12 @@ quality_level = pd.DataFrame({'counts':[sumpoor, sumfair, sumgood]}, index = qua
 quality_level.plot.pie(y="counts", figsize=(10, 10), autopct='%1.2f%%', legend=False, \
                        subplots=True)
 #plt.show()
-plt.savefig('/Users/GrahamMacbookPro/Desktop/Second Half/Final Part 2/quality pie chart.png')
+plt.savefig('quality pie chart.png')
 
 #9
 print(wine.corr())
 pd.plotting.scatter_matrix(wine)
-plt.savefig('/Users/GrahamMacbookPro/Desktop/Second Half/Final Part 2/correlation.png')
+plt.savefig('correlation.png')
 
 #10
 wine = wine.drop(['fixed_acidity','residual_sugar','chlorides','free_sulfur_dioxide','pH'], \
@@ -150,4 +150,4 @@ print(predicted_value)
 values = pd.DataFrame({'R Squared':r_squared, 'root_mean_square_error':root_mean_square_error, \
                                                 'predicted value':predicted_value})
 #print(values)
-values.to_csv('/Users/GrahamMacbookPro/Desktop/Second Half/Final Part 2/predict value.csv') 
+values.to_csv('predict value.csv') 
