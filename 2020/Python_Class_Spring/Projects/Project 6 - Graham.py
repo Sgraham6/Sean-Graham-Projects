@@ -8,7 +8,7 @@ Problem 1. Washington D.C. Bike Sharing Dataset
 '''
 #1
 import pandas as pd
-df = pd.read_csv('/Users/GrahamMacbookPro/Desktop/Week 8/DC bike sharing.csv')
+df = pd.read_csv('DC bike sharing.csv')
 
 df['cnt'].mean()
 df['cnt'].median()
