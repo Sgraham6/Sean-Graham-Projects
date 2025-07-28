@@ -29,7 +29,7 @@ Problem 2. Go to the Modules in Canvas to download the data either ‘mtcars.csv
 7. Select the three columns 'Brand', ‘mpg’ and 'cly', and save your new data to an excel file named ‘mtcars_yournameinitials.xlsx’
 8. Find the names of all columns
 '''
-cars = pd.read_excel('/Users/GrahamMacbookPro/Desktop/Week 1/mtcars.xlsx')
+cars = pd.read_excel('mtcars.xlsx')
 print(cars)
 #   1
 a = cars.shape
