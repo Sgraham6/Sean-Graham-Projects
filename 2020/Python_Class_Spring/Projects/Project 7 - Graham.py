@@ -49,7 +49,7 @@ Problem 2.
 4. Plot the histogram of 'weathersit'
 '''
 #1
-df = pd.read_csv('/Users/GrahamMacbookPro/Desktop/Week 9/DC bike sharing.csv')
+df = pd.read_csv('DC bike sharing.csv')
 
 #2
 plt.boxplot(df['atemp'])
