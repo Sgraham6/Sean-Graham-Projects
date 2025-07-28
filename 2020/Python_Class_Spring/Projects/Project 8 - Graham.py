@@ -84,7 +84,7 @@ Problem 3
        Test respectively to check the normality of the data set.
 '''
 #1
-bikes = pd.read_csv('/Users/GrahamMacbookPro/Desktop/Week 10/DC bike sharing.csv')
+bikes = pd.read_csv('DC bike sharing.csv')
 
 #2 casual
 #A
