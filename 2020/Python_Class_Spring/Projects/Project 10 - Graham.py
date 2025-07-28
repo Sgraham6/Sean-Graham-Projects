@@ -30,7 +30,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('/Users/GrahamMacbookPro/Desktop/Second Half/Week 13/DC bike sharing new.csv')
+df = pd.read_csv('DC bike sharing new.csv')
 
 #2
 Bike = df[['season','holiday','atemp','windspeed','casual','cnt']]
@@ -71,16 +71,16 @@ Bike.describe()
 #10
 Bike.hist(bins=30)
 plt.show()
-plt.savefig('/Users/GrahamMacbookPro/Desktop/Second Half/Week 13/histogram.png')
+plt.savefig('histogram.png')
 
 #11
 Bike.plot.scatter(x='atemp', y='windspeed', c='cnt', cmap=plt.get_cmap("jet"), \
                   colorbar=True, sharex=False)
-plt.savefig('/Users/GrahamMacbookPro/Desktop/Second Half/Week 13/scatter plot.png')
+plt.savefig('scatter plot.png')
 
 #12  
 pd.plotting.scatter_matrix(Bike)
-plt.savefig('/Users/GrahamMacbookPro/Desktop/Second Half/Week 13/correlation.png')
+plt.savefig('correlation.png')
 
 #13
 y_predict=regression_model.predict(X_test)
