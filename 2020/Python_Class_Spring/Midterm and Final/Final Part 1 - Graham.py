@@ -4,7 +4,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('/Users/GrahamMacbookPro/Desktop/Final Part 1/auto-mpg.csv')
+df = pd.read_csv('auto-mpg.csv')
 
 df = df[['mpg','cylinders','displacement','weight','acceleration','model year']]
 df
