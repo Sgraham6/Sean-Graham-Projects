@@ -1,5 +1,5 @@
 library(readxl)
-BlackFriday_xlsx <- read_excel("C:/Users/srgra/AppData/Local/Packages/Microsoft.MicrosoftEdge_8wekyb3d8bbwe/TempState/Downloads/BlackFriday (1).xlsx")
+BlackFriday_xlsx <- read_excel("BlackFriday (1).xlsx")
 View(BlackFriday_xlsx)
 
 #2 Find average purchase amount using for loop
