@@ -111,7 +111,7 @@ RUN;
 ('/folders/myfolders/Week1/class_schedule.csv'). Print the data.;
 
 DATA course;
-   INFILE '/home/u60648806/My Folders/Week1/class_schedule.csv' DSD FIRSTOBS = 2;
+   INFILE 'class_schedule.csv' DSD FIRSTOBS = 2;
    INPUT CourseName $ CourseNumber $ Days $ BeginDate:mmddyy10. EndDate:mmddyy10. 
    Credits Tuition:dollar6.;
 RUN;
@@ -126,7 +126,7 @@ RUN;
 ('/folders/myfolders/Week1/class_schedule.xlsx'). Print the data.;
 
 PROC IMPORT  
-DATAFILE='/home/u60648806/My Folders/Week1/class_schedule.xlsx' 
+DATAFILE='class_schedule.xlsx' 
     OUT = course  DBMS = xlsx
     REPLACE ;
     GETNAMES = yes;
