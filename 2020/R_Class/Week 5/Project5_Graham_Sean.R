@@ -31,7 +31,7 @@ dotchart(loan$loan_amnt,
 
 #6 Make a boxplot with loan_amnt on the y axis, term on the x axis, and save the
 # grpah in a file as loanterm.jpg
-jpeg("C:\\Users\\srgra\\OneDrive\\Documents\\loanterm.jpg")
+jpeg("loanterm.jpg")
 boxplot(loan_amnt ~ term, data = loan, notch = TRUE, col=c("green"),
    main="Loan Amounts by Term", xlab = "Term", ylab = "Loan Amount")
 dev.off()
