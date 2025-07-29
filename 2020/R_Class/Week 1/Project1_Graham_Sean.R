@@ -1,5 +1,5 @@
 library(readxl)
-Insurance <- read_excel("C:/Users/srgra/Downloads/CarInsurances.xlsx")
+Insurance <- read_excel("CarInsurances.xlsx")
 View(Insurance)
 dim(Insurance)
 first.eight.rows = head(Insurance, 8)
