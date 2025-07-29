@@ -1,5 +1,5 @@
 library(readxl)
-pmsm_temperature_data <- read_excel("C:/Users/srgra/AppData/Local/Packages/Microsoft.MicrosoftEdge_8wekyb3d8bbwe/TempState/Downloads/pmsm_temperature_data.xlsx")
+pmsm_temperature_data <- read_excel("pmsm_temperature_data.xlsx")
 View(pmsm_temperature_data)
 
 #2. Of the predictors Ambient, Coolant, u_d, u_q, motor_speed, Torque,
@@ -52,7 +52,7 @@ ggplot(data = pmsm_temperature_data,
 #   and save in a file as pmyoke.jpg using ggplot2
 ggplot(data = pmsm_temperature_data, aes(x = stator_yoke, y = pm)) +
        geom_boxplot(aes(col = stator_yoke), notch = TRUE)
-ggsave("C:\\Users\\srgra\\OneDrive\\Documents\\pmyoke.jpg",
+ggsave("pmyoke.jpg",
        width = 16, height = 12, units = "cm")
 
 #10a. Perform multiple linear regression with Pm as the resonse and
