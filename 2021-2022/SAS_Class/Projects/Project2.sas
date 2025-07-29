@@ -1,16 +1,16 @@
-ods pdf file="/home/u60648806/My Folders/Week2/Project2_results.pdf";
+ods pdf file="Project2_results.pdf";
 
 * Problem 1. Export Dataset;
 * 1. Create a libname using the command: LIBNAME Week2 '/folders/myfolders/Week2';
 
-LIBNAME Week2 '/home/u60648806/My Folders/Week2';
+LIBNAME Week2 'My Folders/Week2';
 
 
-* 2. Read data from the file: '/folders/myfolders/Week2/2010-2015-Age65above Final Death Count.csv'.
+* 2. Read data from the file: '2010-2015-Age65above Final Death Count.csv'.
 Save the data as a permanent SAS dataset named death_count in the library Week2.;
 
 DATA Week2.death_count;
-   INFILE '/home/u60648806/My Folders/Week2/2010-2015-Age65above Final Death Count.csv'
+   INFILE '2010-2015-Age65above Final Death Count.csv'
    DSD FIRSTOBS = 2;
    INPUT year month gender $ age ICD10 death;
 RUN;
@@ -19,7 +19,7 @@ RUN;
 * 3. Use SET to read data from the permanent dataset death_count in the library Week2.
 Use WHERE to select data that year =2015. Name the selected data as death_2015;
 
-LIBNAME  Week2 '/home/u60648806/My Folders/Week2';
+LIBNAME  Week2 'My Folders/Week2';
 DATA death_2015; 
     SET Week2.death_count; 
     WHERE year = 2015;
@@ -28,7 +28,7 @@ RUN;
 * 4. Use PROC EXPORT to save the data death_2015 as a CSV file named death_2015.csv;
 
 PROC EXPORT DATA = death_2015
-OUTFILE ='/home/u60648806/My Folders/Week2/death_2015.csv' 
+OUTFILE ='death_2015.csv' 
     dbms=csv
     replace;
 RUN;
@@ -39,7 +39,7 @@ RUN;
  with INPUT year month gender $ age ICD10 $ death. Name the data as death_count;
 
 DATA death_count;
-    INFILE '/home/u60648806/My Folders/Week2/2010-2015-Age65above Final Death Count.csv'
+    INFILE '2010-2015-Age65above Final Death Count.csv'
     DSD FIRSTOBS = 2;
     INPUT year month gender $ age ICD10 death;
 RUN;
