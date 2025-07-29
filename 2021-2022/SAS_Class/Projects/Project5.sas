@@ -1,7 +1,7 @@
 * Problem 1 Using data set countries;
 * 1. Create a table with Continent, sum of Population, and number of the Countries;
 
-libname Week5 '/home/u60648806/My Folders/Week5';
+libname Week5 'Week5';
 proc sql; 
     title 'Population and Countries by Continent'; 
     select Continent, sum(Population) as Population format=comma16., count(*) as Countries
@@ -14,7 +14,7 @@ Quit;
 * 2. Sub-set a data set from Continent that only includes the Continents with more than 40 
 countries, then, create a table with Continent, sum of Population, and number of the Countries;
 
-libname Week5 '/home/u60648806/My Folders/Week5';
+libname Week5 'Week5';
 proc sql; 
     title 'Population and Countries by Continent'; 
     select Continent, sum(Population) as Population format=comma16., count(*) as Countries
@@ -29,7 +29,7 @@ Quit;
 * Using data sets unitedstates, postalcodes, uscitycoords, create a table containing all States 
 in US with columns of State, State_code, Capital, Latitude, and Longitude;
 
-libname Week5 '/home/u60648806/My Folders/Week5';
+libname Week5 'Week5';
 proc sql outobs=10;
     select us.Name 'State' format=$15., pc.Code, us.Capital format=$15., c.Latitude, c.Longitude 
     from Week5.unitedstates us, Week5.postalcodes pc, Week5.uscitycoords c 
