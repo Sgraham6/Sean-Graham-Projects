@@ -9,7 +9,7 @@ final. Then use IF to subset with the macro variable &ClassAge. Name the subset 
 Print it using the macro variable in TITLE;
 
 DATA final;
-   INFILE '/home/u60648806/My Folders/Week6/school 1 final.csv' DSD FIRSTOBS = 2;
+   INFILE 'school 1 final.csv' DSD FIRSTOBS = 2;
    INPUT ClassID ChildID Gender $ ClassAge $ Language $ f1 f2 f3 f4;
 RUN;
 
@@ -57,7 +57,7 @@ averagescore using the macro variables in the TITLE;
 Count.csv' with INPUT year month gender $ age ICD10 $ death. Name the data as death_count;
 
 DATA death_count;
-   INFILE '/home/u60648806/My Folders/Week6/2010-2015-Age65above Final Death Count.csv' 
+   INFILE '2010-2015-Age65above Final Death Count.csv' 
    DSD FIRSTOBS = 2;
    INPUT year month gender $ age ICD10 $ death;
 RUN;
@@ -88,7 +88,7 @@ PROC MEANS DATA = death_count SUM MAXDEC = 0;
      OUTPUT OUT = death_by_ICD10 SUM(death) = Sum;
 RUN;
 
-ODS LISTING GPATH = '/home/u60648806/My Folders/Week6/';
+ODS LISTING GPATH = 'Week6/';
 ODS GRAPHICS / RESET
     IMAGENAME = 'Scatter plot total death by Death Code'
     OUTPUTFMT = PNG;
@@ -125,7 +125,7 @@ RUN;
 * 6. Create a horizontal box plot for the death with category = month. Save the graph as ‘Boxplot 
 death by month.png’;
 
-ODS LISTING GPATH = '/home/u60648806/My Folders/Week6/';
+ODS LISTING GPATH = 'Week6/';
 ODS GRAPHICS / RESET
     IMAGENAME = 'Boxplot death by month'
     OUTPUTFMT = PNG;
