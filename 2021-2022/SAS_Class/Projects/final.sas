@@ -2,7 +2,7 @@
 Area House Price.csv’. Name the data set as house_price;
 
 PROC IMPORT
-	DATAFILE = '/home/u60648806/My Folders/Week8/Bay Area House Price.csv'
+	DATAFILE = 'Bay Area House Price.csv'
 	OUT = house_price DBMS = csv
 	REPLACE ;
 	GETNAMES = yes;
@@ -108,7 +108,7 @@ PROC SGPLOT DATA = house_price;
     TITLE 'Number of Bathrooms';
 RUN;
 
-ODS LISTING GPATH = '/home/u60648806/My Folders/Week8';
+ODS LISTING GPATH = 'Week8';
 ODS GRAPHICS / RESET
     IMAGENAME = 'Bedrooms'
     OUTPUTFMT = PNG;
@@ -255,7 +255,7 @@ RUN;
 
 proc export data = NewPreds
     dbms = xlsx 
-    outfile = '/home/u60648806/My Folders/Week8/prediction.xlsx' 
+    outfile = 'prediction.xlsx' 
     replace;
 run;
 
