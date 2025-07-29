@@ -5,22 +5,22 @@
 s1f, s2f respectively;
 
 DATA s1m;
-   INFILE '/home/u60648806/My Folders/Week3/school 1 midterm.csv' DSD FIRSTOBS = 2;
+   INFILE 'school 1 midterm.csv' DSD FIRSTOBS = 2;
    INPUT ClassID ChildID Gender $ ClassAge $ Language $ m1 m2 m3 m4;
 RUN;
 
 DATA s2m;
-   INFILE '/home/u60648806/My Folders/Week3/school 2 midterm.csv' DSD FIRSTOBS = 2;
+   INFILE 'school 2 midterm.csv' DSD FIRSTOBS = 2;
    INPUT ClassID ChildID Gender $ ClassAge $ m1 m2 m3 m4;
 RUN;
 
 DATA s1f;
-   INFILE '/home/u60648806/My Folders/Week3/school 1 final.csv' DSD FIRSTOBS = 2;
+   INFILE 'school 1 final.csv' DSD FIRSTOBS = 2;
    INPUT ClassID ChildID Gender $ ClassAge $ Language $ f1 f2 f3 f4;
 RUN;
 
 DATA s2f;
-   INFILE '/home/u60648806/My Folders/Week3/school 2 final.csv' DSD FIRSTOBS = 2;
+   INFILE 'school 2 final.csv' DSD FIRSTOBS = 2;
    INPUT ClassID ChildID Gender $ ClassAge $ f1 f2 f3 f4;
 RUN;
 
