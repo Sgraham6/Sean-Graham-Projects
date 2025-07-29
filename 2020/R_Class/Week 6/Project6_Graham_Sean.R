@@ -24,5 +24,5 @@ ggplot(data = loan, aes(x = grade, y = loan_amnt))+
 # file "loanterm.jpg" using ggplot2
 ggplot(data=loan, aes(x=term, y=loan_amnt))+
   geom_boxplot(aes(col=term), notch = TRUE)
-ggsave("C:\\Users\\srgra\\OneDrive\\Documents\\loanterm.jpg",
+ggsave("loanterm.jpg",
        width = 16, height = 12, units = "cm")
