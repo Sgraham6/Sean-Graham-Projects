@@ -3,7 +3,7 @@ ods pdf file="Project2_results.pdf";
 * Problem 1. Export Dataset;
 * 1. Create a libname using the command: LIBNAME Week2 '/folders/myfolders/Week2';
 
-LIBNAME Week2 'My Folders/Week2';
+LIBNAME Week2 'Week2';
 
 
 * 2. Read data from the file: '2010-2015-Age65above Final Death Count.csv'.
@@ -19,7 +19,7 @@ RUN;
 * 3. Use SET to read data from the permanent dataset death_count in the library Week2.
 Use WHERE to select data that year =2015. Name the selected data as death_2015;
 
-LIBNAME  Week2 'My Folders/Week2';
+LIBNAME  Week2 'Week2';
 DATA death_2015; 
     SET Week2.death_count; 
     WHERE year = 2015;
