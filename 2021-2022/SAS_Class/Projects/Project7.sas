@@ -3,7 +3,7 @@
 as  s2f.  Then do the following analysis;
 
 DATA s2f;
-   INFILE '/home/u60648806/My Folders/Week7/school 2 final.csv' DSD FIRSTOBS = 2;
+   INFILE 'school 2 final.csv' DSD FIRSTOBS = 2;
    INPUT ClassID ChildID Gender $ ClassAge $ f1 f2 f3 f4;
 RUN;
 
@@ -83,6 +83,6 @@ run;
 
 proc export data = percentiles
     dbms = xlsx 
-    outfile = '/home/u60648806/My Folders/Week7/percentiles.xlsx' 
+    outfile = 'percentiles.xlsx' 
     replace;
 run;
