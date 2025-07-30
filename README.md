@@ -8,10 +8,10 @@ This folder holds a college group project that focused on athletes and contained
 
 ## 2020
 ### R
-This folder holds files from an 8 week college class on R in spring 2020. The folders for each week and the final project contain the R code (all of these code files with the exception of week 1 contain the questions that were being answered as comments), the data that was used (with the exception of the third week and the final project, for which the data was missing), and PDFs (which contain screenshots of the code and outputs as well as textual answers to the questions where applicable).
+This folder holds files from an 8 week college class on R in spring 2020. One folder holds the eight weekly projects that were completed (all of the code files with the exception of week 1 contain the questions that were being answered as comments), as well as PDFs for each assignment which contain screenshots of the code and outputs as well as textual answers to the questions where applicable. The other two folders hold the content for the final project and all of the datasets that were used (with the exception of the third week and the final project, for which the data were missing).
 
 ### Python (Spring)
-This folder holds files from a college class on Python in spring 2020. One folder holds the 10 projects that were completed, one holds the content for the midterm and final exams, and the last contains the datasets that were used.
+This folder holds files from a college class on Python in spring 2020. One folder holds the ten projects that were completed, one holds the content for the midterm and final exams, and the last contains the datasets that were used.
 
 ### Python (Summer)
 This folder holds files from an 8 week college class on Python in summer 2020. One folder holds the homework assignments that were completed, one holds the projects, and the last holds the data that was used. Some homework assignments and projects contain their directions within the files, while others have their directions contained in separate PDF files.
@@ -20,7 +20,7 @@ This folder holds files from an 8 week college class on Python in summer 2020. O
 This folder holds files from an 8 week college class on Excel in fall 2020. The folders for each week contain the Excel assignments; some are accompanied by Word documents explaining the tasks, and Week 6 contains two .txt files and a .csv file used in that week's work. The class folder also holds an Excel file that contains all the data tables used for the course.
 
 ### SQL
-This folder holds files from a college class on SQL in fall 2020. One folder holds the 3 exams that were completed over the course and the directions for the first two (the third is missing). The other folder holds a group project that was completed with classmates as well as the directions.
+This folder holds files from a college class on SQL in fall 2020. One folder holds the three exams that were completed over the course and the directions for the first two (the third is missing). The other folder holds a group project that was completed with classmates as well as the directions.
 
 ## 2021-2022
 ### Big Data
@@ -30,7 +30,7 @@ This folder holds files from an 8 week college class on Big Data in fall 2021. O
 This folder holds files from an 8 week college class on SAS in spring 2022. One folder holds the projects completed over the first 7 weeks as well as the final project, and the other holds the datasets that were used.
 
 ### Deep Learning
-This folder holds files from a college class on deep learning in spring 2022. One folder holds six projects completed over the first 7 weeks, one holds the files for the final project (which includes a PowerPoint presentation and script that were presented to the class), and the last holds the datasets that were used by the previous two. It should be noted the that "Final Project Part 1" file had to have its outputs cleared, as it would be too large to display otherwise.
+This folder holds files from a college class on deep learning in spring 2022. One folder holds six projects completed over the first seven weeks, one holds the files for the final project (which includes a PowerPoint presentation and script that were presented to the class), and the last holds the datasets that were used by the previous two. It should be noted the that "Final Project Part 1" file had to have its outputs cleared, as it would be too large to display otherwise.
 
 ### Text Mining
-This folder holds files from a college class on text mining in fall 2022. One folder holds the weekly exercises for the first 7 weeks, one holds the files for the final project in week 8 (which includes a PowerPoint presentation and script that were presented to the class), and the last holds the datasets that were used by the previous two.
+This folder holds files from a college class on text mining in fall 2022. One folder holds the weekly exercises for the first seven weeks, one holds the files for the final project in week 8 (which includes a PowerPoint presentation and script that were presented to the class), and the last holds the datasets that were used by the previous two.
